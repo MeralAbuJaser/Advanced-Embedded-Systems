@@ -1,11 +1,1 @@
-Task 01: 
-a) Continuously display the temperature of the device (internal temperature sensor) on the terminalusing a timer interrupt every 0.5 secs, 
-b) Using PF4button interrupt toggle all (RGB) LEDs.(PS: your program will have two interrupts)
 
-Task 02: 
-Continue with Task 01, developan user interfaceusing UART to perform the following:Enter the cmd: R: Red LED, G: Green LED, B: Blue LED, 
-T: Temperature; S: status of the LEDs:Based on the command (cmd) the program should turn ON Red LED when R is entered in the terminal, etc. 
-Command of ‘r’ will turn off the Red LED.’T’ reads Temperature in Centigrade, and ‘t’ read Temperature in Fahrenheit. ‘S’ read status of the RGB LEDs. 
-
-Task 03: 
-Continue with Task 02, implement the temperature-memory transfer and memory-UART transfer usinguDMA. 
